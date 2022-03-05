@@ -78,7 +78,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-────「 [{}](https://telegra.ph/file/7153ff6d5a0e2711f24d7.jpg) 」────
+────「 [{}](https://telegra.ph/file/94f7049018cc902be4274.jpg) 」────
 *Whassup! {},*
 *I am an Anime themed advance group management bot with a lot of Hot Features.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
@@ -102,8 +102,8 @@ buttons = [
         InlineKeyboardButton(text="[► Inline ◄]", switch_inline_query_current_chat=""),
     ],
     [
-        InlineKeyboardButton(text="❄️ Support", url=f"https://t.me/{SUPPORT_CHAT}"),
-        InlineKeyboardButton(text="☃️ Updates", url="https://t.me/Hottie_Updates"),
+        InlineKeyboardButton(text="❄️ Support", url=f"https://t.me/Vjii_world}"),
+        InlineKeyboardButton(text="☃️ Updates", url="https://t.me/maddyhaimumkinhai"),
     ],
 ]
 
@@ -260,7 +260,7 @@ def start(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="📢 Updates",
-                            url="https://t.me/Hottie_Updates",
+                            url="https://t.me/maddyhaimumkinhai",
                         ),
                     ]
                 ]
